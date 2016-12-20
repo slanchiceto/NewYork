@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	background-image: url(bg.jpg);
+	background-size: cover;
+	font-family: tahoma;
+}
+
+h1, h2 {
+	color: #42716d;
+}
+
+table {
+	width="90%" border="0" cellspacing="2" cellpadding="2" align="center" class="facts"
+}
+p {
+	color: #333;
+	padding: 0px 20px;
+	font-size: 18px;
+	line-height: 130%;
+}
+
+.page {
+	width: 960px;
+	background: rgba(255,255,255,0.8);
+	margin: 20px auto;
+	padding: 30px;
+	border-radius: 30px;
+	box-shadow: rgba(0,0,0,0.2) 0 0 20px;
+}
+
+article {
+	display: block;
+	clear: both;
+	padding: 20px 0;
+}
+
+article img{margin-right: 20px;}
